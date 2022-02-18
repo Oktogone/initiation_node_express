@@ -1,0 +1,8 @@
+<nav id="menu">
+    <h2>Menu</h2>
+    <ul>
+        <% liens.forEach(lien => { %>
+            <li><a href="<%=lien.url%>"><%=lien.label%></a></li>            
+        <% }); %>
+    </ul>
+</nav>

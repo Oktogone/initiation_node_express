@@ -1,0 +1,15 @@
+<h1><%=pageTitle%></h1>
+<p>
+<% if(messages) {%>
+    <h2>Votre demande a échoué</h2>
+    <ul>
+        <% messages.forEach(erreur => {%>
+            <li style="color:red;"><%=erreur.msg%></li>
+        <%});%>
+    </ul>
+<%} else{%>
+    <h2>Merci pour votre message</h2>
+    Cher <%= contact.name.charAt(0).toUpperCase() +
+         contact.name.slice(1).toLowerCase() %>, nous avons bien enregistré votre demande, le disquaire de <%=siteName%> vous répondra très prochainement à l'adresse mail que vous avez indiquée : <%=contact.mail%>.
+<%}%>
+</p>

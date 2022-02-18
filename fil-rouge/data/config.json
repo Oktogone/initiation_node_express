@@ -1,0 +1,14 @@
+{
+    "socials": [
+        { "url":"https://www.twitter.com", "class": "fa-twitter", "label": "Twitter"},
+        { "url":"https://www.facebook.com", "class": "fa-facebook-f", "label": "Facebook"},
+        { "url":"https://www.instagram.com", "class": "fa-instagram", "label": "Instagram"},
+        { "url":"https://www.github.com", "class": "fa-github", "label": "GitHub"}
+    ],
+    "site_name": "Boite à musique",
+    "liens": [
+        { "url": "/", "label": "Accueil"},
+        { "url": "/catalogue", "label": "Le catalogue"},
+        { "url": "/apropos", "label": "A propos"}
+    ]
+}
